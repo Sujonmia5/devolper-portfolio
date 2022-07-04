@@ -21,6 +21,7 @@ h1 {
 .div1 {
     width: 50%;
     padding-left: 5%;
+    text-align: justify;
 }
 
 .div1 img {
@@ -47,4 +48,42 @@ h1 {
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right bottom;
+    margin-bottom: 150px;
+}
+
+.contriner {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+#border {
+    border-left: 7px solid tomato;
+}
+
+#border2 {
+    border-left: 7px solid blue;
+}
+
+.shadow {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+    box-shadow: 5px 5px 30px orange;
+}
+
+.last-option {
+
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+footer p {
+    text-align: center;
 }
